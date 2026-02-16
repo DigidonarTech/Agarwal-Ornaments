@@ -12,26 +12,6 @@ const featuredItems = [
   { name: 'Bridal Gold Set',          price: '₹2,50,000', img: img4 },
 ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Home = () => {
   return (
     <>

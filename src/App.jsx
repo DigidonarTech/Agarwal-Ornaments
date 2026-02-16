@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Terms from './pages/Terms';
 // import Privacy from './pages/Privacy';
 // import Contact from './pages/Contact';
+import Collections from './pages/Collections';
+import About from './pages/About';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             {/* <Route path="/privacy" element={<Privacy />} /> */}
             {/* <Route path="/contact" element={<Contact />} /> */}
             {/* Agar future mein 404 chahiye: <Route path="*" element={<NotFound />} /> */}
+            <Route path="/collections" element={<Collections />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
         <Footer />
