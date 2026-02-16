@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
+import img1 from '../assets/ring1.jpg';
+import img2 from '../assets/necklace1.jpg';
+import img3 from '../assets/earrings1.jpg';
+import img4 from '../assets/ring2.jpg';
 
 const featuredItems = [
-  { name: 'Diamond Solitaire Ring', price: '₹1,25,000', img: 'https://via.placeholder.com/400x500/111/FFD700?text=Diamond+Ring' },
-  { name: 'Gold Pearl Necklace', price: '₹85,000', img: 'https://via.placeholder.com/400x500/111/FFD700?text=Pearl+Necklace' },
-  { name: 'Emerald Drop Earrings', price: '₹65,000', img: 'https://via.placeholder.com/400x500/111/FFD700?text=Emerald+Earrings' },
-  { name: 'Bridal Gold Set', price: '₹2,50,000', img: 'https://via.placeholder.com/400x500/111/FFD700?text=Bridal+Set' },
+  { name: 'Diamond Solitaire Ring', price: '₹1,25,000', img: img1 },
+  { name: 'Gold Pearl Necklace', price: '₹85,000', img: img2 },
+  { name: 'Emerald Drop Earrings', price: '₹65,000', img: img3 },
+  { name: 'Bridal Gold Set', price: '₹2,50,000', img: img4 },
 ];
 
 const Home = () => {
