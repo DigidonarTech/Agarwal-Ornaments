@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import logo from '../assets/logo.jpg';          // Logo import kar liya
+import logo from '../assets/logo.jpg';
 import img1 from '../assets/ring1.jpg';
 import img2 from '../assets/necklace1.jpg';
 import img3 from '../assets/earrings1.jpg';
