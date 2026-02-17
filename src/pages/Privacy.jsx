@@ -78,7 +78,7 @@ const Privacy = () => {
             <li>File a grievance with the Data Protection Officer</li>
           </ul>
           <p className="mt-4">
-            To exercise these rights, contact us at <a href="mailto:support@agarwalornaments.com" className="text-gold hover:underline">support@agarwalornaments.com</a>.
+            To exercise these rights, contact us at <a href="mailto:Gargrishi4321@gmail.com" className="text-gold hover:underline">Gargrishi4321@gmail.com</a>.
           </p>
         </section>
 
@@ -100,8 +100,8 @@ const Privacy = () => {
           <div className="bg-gray-900/50 p-6 rounded-xl border border-gold/20">
             <p><strong>Agarwal Ornaments</strong></p>
             <p>Lucknow, Uttar Pradesh, India</p>
-            <p>Email: <a href="mailto:privacy@agarwalornaments.com" className="text-gold hover:underline">privacy@agarwalornaments.com</a></p>
-            <p>Phone: +91-XXXXXXXXXX</p>
+            <p>Email: <a href="mailto:Gargrishi4321@gmail.com" className="text-gold hover:underline">Gargrishi4321@gmail.com</a></p>
+            <p>Phone: +91-95983 15848</p>
           </div>
         </section>
       </motion.div>

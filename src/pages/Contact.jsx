@@ -185,7 +185,7 @@ const Contact = () => {
             </div>
 
             <p className="text-center text-gold/60 text-sm mt-4">
-              We'll respond within 24-48 hours. For urgent matters, call us at +91-XXXXXXXXXX.
+              We'll respond within 24-48 hours. For urgent matters, call us at +91-9598315848.
             </p>
           </form>
         )}
@@ -193,29 +193,42 @@ const Contact = () => {
 
       {/* Contact Info Section */}
       <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.6 }}
-        className="mt-16 text-center"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1, delay: 0.6 }}
+  className="mt-16 text-center"
+>
+  <h2 className="text-3xl text-gold mb-8">Other Ways to Reach Us</h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    {/* Visit Us */}
+    <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 flex flex-col items-center justify-center min-h-[180px]">
+      <h3 className="text-xl text-gold mb-4">Visit Us</h3>
+      <p className="text-gold/80 text-center text-base leading-relaxed">
+        G 10 JAIN MARKET, H NO 104 B BLOCK BHOOTNATH<br />
+        MARKET, INDIRA NAGAR, Uttar Pradesh, 226016
+      </p>
+    </div>
+
+    {/* Email */}
+    <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 flex flex-col items-center justify-center min-h-[180px]">
+      <h3 className="text-xl text-gold mb-4">Email</h3>
+      <a 
+        href="mailto:Gargrishi4321@gmail.com" 
+        className="text-gold hover:underline text-center break-words max-w-full"
       >
-        <h2 className="text-3xl text-gold mb-8">Other Ways to Reach Us</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10">
-            <h3 className="text-xl text-gold mb-4">Visit Us</h3>
-            <p className="text-gold/80">Lucknow, Uttar Pradesh, India</p>
-          </div>
-          <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10">
-            <h3 className="text-xl text-gold mb-4">Email</h3>
-            <a href="mailto:support@agarwalornaments.com" className="text-gold hover:underline">
-              support@agarwalornaments.com
-            </a>
-          </div>
-          <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10">
-            <h3 className="text-xl text-gold mb-4">Phone</h3>
-            <p className="text-gold/80">+91-XXXXXXXXXX</p>
-          </div>
-        </div>
-      </motion.div>
+        Gargrishi4321@gmail.com
+      </a>
+    </div>
+
+    {/* Phone */}
+    <div className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 flex flex-col items-center justify-center min-h-[180px]">
+      <h3 className="text-xl text-gold mb-4">Phone</h3>
+      <p className="text-gold/80 text-center text-lg">
+        +91-9598315848
+      </p>
+    </div>
+  </div>
+</motion.div>
     </div>
   );
 };

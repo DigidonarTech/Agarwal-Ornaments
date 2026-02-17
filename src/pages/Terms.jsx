@@ -106,9 +106,10 @@ const Terms = () => {
           </p>
           <div className="bg-gray-900/50 p-6 rounded-xl border border-gold/20">
             <p><strong>Agarwal Ornaments</strong></p>
-            <p>Lucknow, Uttar Pradesh, India</p>
-            <p>Email: <a href="mailto:support@agarwalornaments.com" className="text-gold hover:underline">support@agarwalornaments.com</a></p>
-            <p>Phone: +91-XXXXXXXXXX</p>
+            <p>G 10 JAIN MARKET, H NO 104 B BLOCK BHOOTNATH
+MARKET, INDIRA NAGAR, Uttar Pradesh, 226016</p>
+            <p>Email: <a href="mailto:support@agarwalornaments.com" className="text-gold hover:underline">Gargrishi4321@gmail.com</a></p>
+            <p>Phone: +91-9598315848</p>
           </div>
         </section>
       </motion.div>

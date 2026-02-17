@@ -3,8 +3,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Terms from './pages/Terms';
-// import Privacy from './pages/Privacy';
-// import Contact from './pages/Contact';
+import Privacy from './pages/Privacy';
+import Contact from './pages/Contact';
 import Collections from './pages/Collections';
 import About from './pages/About';
 
@@ -17,9 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/terms" element={<Terms />} />
-            {/* <Route path="/privacy" element={<Privacy />} /> */}
-            {/* <Route path="/contact" element={<Contact />} /> */}
-            {/* Agar future mein 404 chahiye: <Route path="*" element={<NotFound />} /> */}
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/collections" element={<Collections />} />
             <Route path="/about" element={<About />} />
           </Routes>
