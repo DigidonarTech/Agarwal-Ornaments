@@ -109,12 +109,12 @@ const Collections = () => {
         <p className="text-gold/70 text-xl mb-8">
           Can't find what you're looking for? We specialize in custom designs.
         </p>
-        <a 
+        <Link 
           href="/contact" 
           className="px-10 py-5 bg-transparent border-2 border-gold text-gold uppercase tracking-widest hover:bg-gold hover:text-black transition duration-500 rounded-sm text-lg"
         >
           Customize Your Piece
-        </a>
+        </Link>
       </motion.div>
     </div>
   );
