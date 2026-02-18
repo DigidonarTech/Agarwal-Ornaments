@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 // Dummy categories data – real mein yahan se dynamic bana sakte hain baad mein
