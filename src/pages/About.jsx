@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -131,18 +132,18 @@ const About = () => {
           Join our legacy. Visit us in Lucknow or explore our collections online.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <a 
+          <Link
             href="/collections" 
             className="px-10 py-5 border-2 border-gold text-gold uppercase tracking-wider hover:bg-gold hover:text-black transition duration-500 rounded-sm text-lg"
           >
             Explore Collections
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="/contact" 
             className="px-10 py-5 bg-transparent border-2 border-gold text-gold uppercase tracking-wider hover:bg-gold hover:text-black transition duration-500 rounded-sm text-lg"
           >
             Visit Our Store
-          </a>
+          </Link>
         </div>
       </motion.div>
     </div>
