@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import img1 from '../assets/ring2.jpg';
+import img2 from '../assets/jhumka vibes.jpg';
+import img3 from '../assets/DIY earrings for party.jpg';
+import img4 from '../assets/img4.jpg';
 
 const About = () => {
   return (
@@ -15,7 +19,7 @@ const About = () => {
           About Agarwal Ornaments
         </h1>
         <p className="text-gold/80 text-lg md:text-xl max-w-3xl mx-auto font-light">
-          Where tradition meets timeless elegance – crafting stories in gold since generations.
+          A small family jewelry shop in Lucknow bringing affordable & beautiful pieces for everyday use.
         </p>
       </motion.div>
 
@@ -28,15 +32,18 @@ const About = () => {
           viewport={{ once: true }}
           className="space-y-6 text-gold/90 text-base md:text-lg leading-relaxed"
         >
-          <h2 className="text-3xl md:text-4xl text-gold font-semibold mb-6">Our Legacy</h2>
+          <h2 className="text-3xl md:text-4xl text-gold font-semibold mb-6">Our Story</h2>
           <p>
-            Agarwal Ornaments is a proud family-owned jewelry house rooted in the heart of Lucknow, Uttar Pradesh. For over three decades, we have been dedicated to preserving the rich heritage of Indian craftsmanship while embracing contemporary designs.
+            Agarwal Ornaments is a small family-run jewelry shop located in the heart of Lucknow, Uttar Pradesh. 
+            For many years, we have been serving our local community with simple, stylish, and pocket-friendly jewelry.
           </p>
           <p>
-            What began as a small workshop has grown into a trusted name for exquisite gold, diamond, and gemstone jewelry. Every piece is a testament to our commitment to quality, purity, and artistry – handcrafted with the same passion that has been passed down through generations.
+            We offer everyday wear pieces like fashion chains, earrings, rings, pendants, oxidized items, and more – 
+            all made with care and designed to fit everyone's budget.
           </p>
           <p>
-            We believe jewelry is more than adornment; it's an emotion, a tradition, and a celebration of life's precious moments.
+            Our goal is simple: bring beautiful jewelry to every woman without breaking the bank. 
+            We believe everyone deserves to look good every day.
           </p>
         </motion.div>
 
@@ -48,15 +55,15 @@ const About = () => {
           className="relative rounded-2xl overflow-hidden border border-gold/20 shadow-2xl"
         >
           <img 
-            src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_580,h_387/https://www.orientbell.com/blog/wp-content/uploads/2024/02/shutterstock_2317483599-1024x683.jpg" 
-            alt="Elegant jewelry showroom display in traditional Indian style" 
+            src={img4} 
+            alt="Local jewelry shop display in Lucknow" 
             className="w-full h-auto object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
         </motion.div>
       </div>
 
-      {/* Craftsmanship Section */}
+      {/* What We Offer Section */}
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -64,9 +71,10 @@ const About = () => {
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-3xl md:text-4xl text-gold font-semibold mb-8">The Art of Craftsmanship</h2>
+        <h2 className="text-3xl md:text-4xl text-gold font-semibold mb-8">What We Offer</h2>
         <p className="text-gold/80 max-w-4xl mx-auto text-lg leading-relaxed">
-          Our skilled artisans bring centuries-old techniques to life, blending traditional methods with modern precision. From intricate filigree work to flawless diamond setting, every detail is perfected with unwavering dedication.
+          We make and sell only daily-use jewelry that is comfortable, lightweight, and easy on the pocket. 
+          Every piece is carefully crafted in our small shop with love and attention.
         </p>
       </motion.div>
 
@@ -79,12 +87,11 @@ const About = () => {
           className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 text-center"
         >
           <img 
-            src="https://c8.alamy.com/comp/ET1WKX/goldsmith-making-jewellery-in-kathputli-colony-at-delhi-india-asia-ET1WKX.jpg" 
-            alt="Indian goldsmith crafting traditional jewelry" 
+            src={img3} 
             className="w-full h-48 object-cover rounded-lg mb-6 mx-auto"
           />
-          <h3 className="text-xl text-gold mb-4">Handcrafted Mastery</h3>
-          <p className="text-gold/70">Every piece is meticulously handcrafted by our expert artisans in Lucknow.</p>
+          <h3 className="text-xl text-gold mb-4">Handmade with Love</h3>
+          <p className="text-gold/70">Each piece is made by hand in our small shop with care.</p>
         </motion.div>
 
         <motion.div 
@@ -95,12 +102,12 @@ const About = () => {
           className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 text-center"
         >
           <img 
-            src="https://thumbs.dreamstime.com/b/goldsmith-working-thai-traditional-gold-skilled-goldsmith-working-traditional-thai-gold-demonstrating-artistry-365536330.jpg" 
-            alt="Artisan working on intricate gold jewelry" 
+            src={img1}
+            alt="Jewelry crafting process" 
             className="w-full h-48 object-cover rounded-lg mb-6 mx-auto"
           />
-          <h3 className="text-xl text-gold mb-4">Purity & Quality</h3>
-          <p className="text-gold/70">We use only hallmarked gold and certified diamonds for lasting brilliance.</p>
+          <h3 className="text-xl text-gold mb-4">Budget-Friendly Prices</h3>
+          <p className="text-gold/70">Beautiful jewelry starting from just ₹99 – perfect for everyone.</p>
         </motion.div>
 
         <motion.div 
@@ -111,12 +118,12 @@ const About = () => {
           className="bg-gray-900/40 p-8 rounded-xl border border-gold/10 text-center"
         >
           <img 
-            src="https://content.jdmagicbox.com/v2/comp/lucknow/l6/0522px522.x522.171202193042.i8l6/catalogue/r-r-jewellers-gomti-nagar-lucknow-jewellery-showrooms-3zb8y5b1ps.jpg" 
-            alt="Traditional jewelry showroom interior in Lucknow" 
+            src={img2}
+            alt="Jewelry display in local shop" 
             className="w-full h-48 object-cover rounded-lg mb-6 mx-auto"
           />
-          <h3 className="text-xl text-gold mb-4">Customer-Centric</h3>
-          <p className="text-gold/70">Personalized service and trust built over years in the heart of Lucknow.</p>
+          <h3 className="text-xl text-gold mb-4">From Lucknow with Love</h3>
+          <p className="text-gold/70">Serving customers from Indira Nagar with personal care and trust.</p>
         </motion.div>
       </div>
 
@@ -129,20 +136,20 @@ const About = () => {
         className="text-center"
       >
         <p className="text-gold/80 text-xl mb-8">
-          Join our legacy. Visit us in Lucknow or explore our collections online.
+          Come visit our shop in Lucknow or explore online – we're waiting for you!
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           <Link
-            href="/collections" 
+            to="/collections"
             className="px-10 py-5 border-2 border-gold text-gold uppercase tracking-wider hover:bg-gold hover:text-black transition duration-500 rounded-sm text-lg"
           >
-            Explore Collections
+            View Collections
           </Link>
           <Link 
-            href="/contact" 
+            to="/contact"
             className="px-10 py-5 bg-transparent border-2 border-gold text-gold uppercase tracking-wider hover:bg-gold hover:text-black transition duration-500 rounded-sm text-lg"
           >
-            Visit Our Store
+            Contact Us
           </Link>
         </div>
       </motion.div>
