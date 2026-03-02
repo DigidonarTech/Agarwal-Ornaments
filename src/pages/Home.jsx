@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.jpg';
-import img1 from '../assets/ring1.jpg';
-import img2 from '../assets/necklace1.jpg';
-import img3 from '../assets/earrings1.jpg';
-import img4 from '../assets/ring3.jpg';
+import img1 from '../assets/braclate2.webp';
+import img2 from '../assets/earing.jpg';
+import img3 from '../assets/braclate.webp';
+import img4 from '../assets/kangan.webp';
 import { useCart } from '../context/CartContext';
 
 const featuredItems = [
-  { name: 'Silver Oxidized Ring', price: '₹199', img: img1 },
-  { name: 'Daily Wear Gold Plated Chain', price: '₹349', img: img2 },
-  { name: 'Stylish Stud Earrings', price: '₹249', img: img3 },
-  { name: 'Trendy Pendant Set', price: '₹499', img: img4 },
+  { name: 'Royal Mesh Gold Bangles', price: '₹49999', img: img1 },
+  { name: 'Sunburst Temple Jhumkas', price: '₹60000', img: img2 },
+  { name: 'Floral Heritage Gold Kada', price: '₹79999', img: img3 },
+  { name: 'Modern Cutwork Gold Kada', price: '₹49999', img: img4 },
 ];
 
 const Home = () => {
