@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import img1 from '../assets/ring2.jpg';
-import img2 from '../assets/jhumka vibes.jpg';
-import img3 from '../assets/DIY earrings for party.jpg';
-import img4 from '../assets/img4.jpg';
+import img1 from '../assets/im9.webp';
+import img2 from '../assets/braclate2.webp';
+import img3 from '../assets/braclate.webp';
+import img4 from '../assets/2023-05-14.webp';
 
 const About = () => {
   return (

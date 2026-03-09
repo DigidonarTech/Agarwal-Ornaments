@@ -2,55 +2,63 @@ import { motion } from 'framer-motion';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 
-// Affordable items – names Home page se completely different
+
+import image1 from '../assets/im1.webp';
+import image2 from '../assets/im2.jpg';
+import image3 from '../assets/im3.webp';
+import image4 from '../assets/im4.webp';
+import image5 from '../assets/im5.webp';
+import image6 from '../assets/im6.webp';
+
+
 const collections = [
   {
     id: 1,
-    name: 'Minimal Oxidized Band Ring',
-    title: 'Minimal Oxidized Band Ring',
-    description: 'Simple oxidized silver band – lightweight & trendy.',
-    price: '₹149',
-    img: 'https://thumbs.dreamstime.com/b/sparkling-diamond-engagement-ring-dark-background-high-quality-jewelry-shot-stunning-solitaire-marriage-close-up-326521277.jpg',
+    name: 'Royal Filigree Kada',
+    title: 'Royal Filigree Kada',
+    description: 'Elegant royal filigree kada – lightweight & trendy.',
+    price: '₹14900',
+    img: image1,
   },
   {
     id: 2,
-    name: 'Thin Gold Plated Necklace',
-    title: 'Thin Gold Plated Necklace',
-    description: 'Delicate everyday chain in gold plated finish.',
-    price: '₹179',
-    img: 'https://thumbs.dreamstime.com/b/gold-jewelry-display-rings-necklaces-bracelets-luxury-store-diamond-ring-brown-showcase-earrings-gems-collection-morning-385712389.jpg',
+    name: 'Classic Temple Gold Mala',
+    title: 'Classic Temple Gold Mala',
+    description: 'Traditional gold mala with intricate temple design.',
+    price: '₹14999',
+    img: image2,
   },
   {
     id: 3,
-    name: 'Pearl Drop Studs',
-    title: 'Pearl Drop Studs',
-    description: 'Small pearl stud earrings for casual look.',
-    price: '₹129',
-    img: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/157914f2-0c04-4598-9545-4d48935b8683.__CR0,0,1940,1200_PT0_SX970_V1___.jpg',
+    name: 'Floral Enamel Gold Bangles',
+    title: 'Floral Enamel Gold Bangles',
+    description: 'Beautiful floral enamel bangles in gold tone.',
+    price: '₹145000',
+    img: image3,
   },
   {
     id: 4,
-    name: 'Heart Shape Pendant Chain',
-    title: 'Heart Shape Pendant Chain',
-    description: 'Cute heart pendant with thin chain set.',
-    price: '₹199',
-    img: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/99767f82-a6ca-4c1b-bf53-b7ea09fa1799.__CR0,0,1940,1200_PT0_SX970_V1___.jpg',
+    name: 'Royal Navratna Pendant Set',
+    title: 'Royal Navratna Pendant Set',
+    description: 'Elegant pendant set with royal navratna stones.',
+    price: '₹59999',
+    img: image4,
   },
   {
     id: 5,
-    name: 'Black Bead Mangalsutra',
-    title: 'Black Bead Mangalsutra',
+    name: 'Classic Shagun Mangalsutra',
+    title: 'Classic Shagun Mangalsutra',
     description: 'Traditional lookalike mangalsutra pendant.',
-    price: '₹169',
-    img: 'https://thumbs.dreamstime.com/b/elegant-diamond-gold-rings-displayed-luxurious-setting-stunning-collection-showcased-jewelry-display-highlighting-330149748.jpg',
+    price: '₹70000',
+    img: image5,
   },
   {
     id: 6,
-    name: 'Butterfly Inspired Earring',
-    title: 'Butterfly Inspired Earring',
-    description: 'Butterfly motif earrings in silver tone.',
-    price: '₹189',
-    img: 'https://img.pikbest.com/ai/illus_our/20230428/51980d9121d60a25f7925a3528c5c73a.jpg!sw800',
+    name: 'Pink Pearl Bridal Necklace',
+    title: 'Pink Pearl Bridal Necklace',
+    description: 'Elegant bridal necklace with pink pearls.',
+    price: '₹18900',
+    img: image6,
   },
 ];
 
@@ -59,7 +67,7 @@ const Collections = () => {
 
   return (
     <div className="pt-32 pb-24 px-6 md:px-12 lg:px-20">
-      {/* Header */}
+     
       <motion.div 
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -74,7 +82,6 @@ const Collections = () => {
         </p>
       </motion.div>
 
-      {/* Grid of Affordable Items */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 max-w-7xl mx-auto">
         {collections.map((item, idx) => (
           <motion.div 
@@ -110,7 +117,6 @@ const Collections = () => {
         ))}
       </div>
 
-      {/* Call to Action */}
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
